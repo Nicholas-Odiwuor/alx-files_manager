@@ -1,0 +1,29 @@
+{
+  "name": "alx-files_manager",
+  "version": "1.0.0",
+  "description": "ALX Files Manager project using Node.js, Express, MongoDB, Redis, and Kue",
+  "main": "server.js",
+  "scripts": {
+    "start": "babel-node server.js",
+    "dev": "nodemon --exec babel-node server.js",
+    "lint": "eslint ."
+  },
+  "author": "Nick Kopiyo",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^3.6.3",
+    "redis": "^3.1.2",
+    "kue": "^0.11.6",
+    "uuid": "^8.3.2",
+    "mime-types": "^2.1.27"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.11.1",
+    "@babel/preset-env": "^7.11.0",
+    "eslint": "^7.6.0",
+    "nodemon": "^2.0.4"
+  }
+}
+
